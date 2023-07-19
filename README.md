@@ -1,71 +1,68 @@
-# Getting Started with Create React App
+# React Calculator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Calculator App Screenshot](screenshot.png)
 
-## Available Scripts
+This is a simple calculator app built with React. The app provides basic calculator functionality like addition, subtraction, multiplication, division, percentage, and the ability to clear the display and perform backspace.
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+You can try out the live demo of the calculator app [here](https://example.com).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Addition: Perform addition operations.
+- Subtraction: Perform subtraction operations.
+- Multiplication: Perform multiplication operations.
+- Division: Perform division operations.
+- Percentage: Calculate the percentage of a number.
+- Clear: Clear the display and reset the calculator.
+- Backspace: Remove the last character from the display.
+- Decimal: Add a decimal point for floating-point numbers.
 
-### `npm test`
+## Folder Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The folder structure of the React Calculator app is organized as follows:
 
-### `npm run build`
+react-calculator/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── Button.js
+│ │ ├── Calculator.js
+│ │ └── ...
+│ ├── styles/
+│ │ ├── calculator.css
+│ │ ├── button.css
+│ │ └── ...
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+├── package.json
+├── README.md
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The `public` folder contains the `index.html` file, which is the entry point for the React app.
+- The `src` folder contains the source code of the application.
+- The `components` folder inside `src` contains reusable components used in the app, such as `Button.js` and `Calculator.js`.
+- The `styles` folder inside `src` contains CSS files used for styling the app, such as `calculator.css` and `button.css`.
+- The `App.js` file in the `src` folder is the main component that renders the Calculator app.
+- The `index.js` file in the `src` folder is the entry point of the React application.
+- The `package.json` file at the root contains the dependencies and scripts for the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dependencies
 
-### `npm run eject`
+To run the React Calculator app, you need to have the following dependencies installed:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js
+- npm (Node Package Manager)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the calculator app on your local machine, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# React-Calculator
+```bash
+git clone https://github.com/namangulati1/React-Calculator.git
+cd react-calculator
