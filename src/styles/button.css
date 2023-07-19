@@ -1,0 +1,52 @@
+/* src/styles/Button.css */
+
+.button {
+    width: 100%;
+    height: 80px;
+    font-size: 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d6d6d6;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #c3c3c3;
+  }
+  
+  .button:active {
+    background-color: #b0b0b0;
+  }
+  
+  .button.operator {
+    background-color: #f5913e;
+    color: #fff;
+  }
+  
+  .button.operator:hover {
+    background-color: #e08030;
+  }
+  
+  .button.operator:active {
+    background-color: #d07020;
+  }
+  
+  .button.equals {
+    grid-column: span 2;
+    background-color: #50a1f1;
+    color: #fff;
+  }
+  
+  .button.equals:hover {
+    background-color: #4091e1;
+  }
+  
+  .button.equals:active {
+    background-color: #3071c1;
+  }
+  
