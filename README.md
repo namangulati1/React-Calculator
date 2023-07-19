@@ -24,22 +24,23 @@ You can try out the live demo of the calculator app [here](https://example.com).
 The folder structure of the React Calculator app is organized as follows:
 
 react-calculator/
-  ├── public/
-  │   └── index.html
-  ├── src/
-  │   ├── components/
-  │   │   ├── Button.js
-  │   │   ├── Calculator.js
-  │   │   └── ...
-  │   ├── styles/
-  │   │   ├── calculator.css
-  │   │   ├── button.css
-  │   │   └── ...
-  │   ├── App.js
-  │   ├── index.js
-  │   └── ...
-  ├── package.json
-  ├── README.md
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Button.js
+│   │   ├── Calculator.js
+│   │   └── ...
+│   ├── styles/
+│   │   ├── calculator.css
+│   │   ├── button.css
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+
 
 
 - The `public` folder contains the `index.html` file, which is the entry point for the React app.
